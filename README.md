@@ -11,3 +11,7 @@ Aprenda sobre os principais tópicos relacionados com o tema engenharia de softw
 - Testes de software;
 - Gestão de projetos; e
 - Infraestrutura e deploy.
+
+---
+
+- [Design & Arquitetura](./design-e-arquitetura/1.RESUMO.MD)
