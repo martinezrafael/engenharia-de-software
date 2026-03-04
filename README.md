@@ -15,3 +15,4 @@ Aprenda sobre os principais tópicos relacionados com o tema engenharia de softw
 ---
 
 - [Design & Arquitetura](./design-e-arquitetura/1.RESUMO.MD)
+- [API & REST](./api-e-rest/1.RESUMO.MD)
