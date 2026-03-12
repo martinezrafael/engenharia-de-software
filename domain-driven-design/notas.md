@@ -367,3 +367,39 @@ _Quando envolver?_
 - Definição de termos
 - Regras complexas
 - Validação do modelo
+
+---
+
+## Entrevistas e Observação
+
+_Entrevista_
+O que as pessoas DIZEM que elas fazem
+
+_Observação_
+O que as pessoas REALMENTE fazem
+
+A pessoa contar como é o dia a dia dela, ajuda na parte da entrevista
+
+_Técnicas Eficazes:_
+
+- Técnica do "última vez"
+- Técnica dos "5 porquês"
+- Técnica do alienígena
+- Técnica da exceção
+
+---
+
+## Entendendo o EvensStorming
+
+Workshop Colaborativo para descoberta rápida do domínio usando post-its coloridos.
+
+Eventos do domínio -> Fatos relevantes que alteram o estado do sistema ou alteram algum estado do processo.
+
+_1. Exploração Caótica_
+Todos os eventos possíveis
+
+_2. Timeline_
+Ordenar cronologicamente
+
+_3. Estruturação_
+Validar termos e identificar fronteiras
