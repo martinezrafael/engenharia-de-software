@@ -403,3 +403,37 @@ Ordenar cronologicamente
 
 _3. Estruturação_
 Validar termos e identificar fronteiras
+
+---
+
+## Explorando o conceito de domain storytelling
+
+_Storytelling de domínio_
+Ensina a contar histórias visuais do domínio usando pictogramas.
+
+- Atores: quem realiza as ações;
+- Objetos: Com o que interagem;
+- Atividades: Ações realizadas.
+
+_Exemplo de Domain Storytelling_
+História: Cliente compra um produto
+
+1. Cliente busca produto por marca
+2. Sistema mostra produtos
+3. Cliente seleciona produto
+4. Cliente adiciona ao carrinho
+5. Cliente informa CEP
+
+Descobertas: cliente busca por marca, CEP antes do checkout
+
+---
+
+# Combinando as técnicas
+
+EventStorming: QUANDO acontece
+
+Domain Storytelling: COMO acontece
+
+Observação: O QUE REALMENTE acontece
+
+Entrevistas: POR QUE acontece
