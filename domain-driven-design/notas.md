@@ -437,3 +437,93 @@ Domain Storytelling: COMO acontece
 Observação: O QUE REALMENTE acontece
 
 Entrevistas: POR QUE acontece
+
+---
+
+## Do domínio ao contexto
+
+_O que são subdomínios?_
+
+Subdomínios, seriam basicamente subdivisões do nosso domínio principal.
+
+**Finalidade Própria**
+Catalogo: organiza e busca produtos
+
+**Regras Especifícas**
+Precificação: margens, descontos, promoções
+
+**Atores Próprios**
+Marketing e Financeiro: atores distintos
+
+**Vocabulário Distinto**
+Produto: descrição (catálogo), SKU (Estoque)
+
+_Mapeamento de Subdomínios_
+
+- Catálogo: Gerencia produtos e descrições
+- Pagamentos: Processa transações
+- Entrega: Gerencia logística
+- Cliente: Gerencia dados e preferências
+
+_Subdomínios Core_
+
+- Coração do negócio e razão da sua existência no mercado.
+- Principal diferencial competitivo.
+- Área prioritária para excelência e geração de valor.
+- Ligado à missão e visão da empresa, exige investimento contínuo em pesquisa e desenvolvimento.
+
+_Subdomínios de Suporte_
+
+- Necessários para o funcionamento do core.
+- Não é o diferencial principal do negócio.
+- Requer customização moderada.
+- Deve ser bem feito, mas não precisa ser revolucionário.
+
+_Subdomínios Genéricos_
+
+- Problemas comuns e já resolvidos pela indústria.
+- Não oferece diferenciação competitiva.
+- Soluções padronizadas e commoditizadas disponíveis no mercado.
+- Candidatos ideais para compra, terceirização ou uso de soluções prontas.
+
+---
+
+## Implicações Práticas
+
+_Core_
+
+- Melhores Talentos
+- Sistemas robustos, orientados ao domínio
+- Experimentos e melhorias sempre
+- Deploys com alta frequência
+
+_Supporting_
+
+- Times bons, mas não os mais experientes
+- Sistemas sólidos e simples
+- Deploys com média frequência
+
+_Generic_
+
+- Prefira soluções prontas
+- Se precisar criar, siga os padrões do mercado
+- Atualize quando for necessário
+- Pense em terceirizar
+
+## Erros de classificação
+
+- Tecnologia como core
+  - Confundir tecnologia (IA/Blockchain) com valor de negócio.
+- Estrutura Organizacional
+  - Classificar departamento (ex:RH) como subdomínio.
+- Subestimar suporte
+  - Classificar gestão de usuários como genérico, quando é suporte.
+- Core muito amplo
+  - Marketplace englobando vendedores e compras num Core Único
+
+## Erros de estratégia de implementação
+
+- Customizar Genéricos
+- Terceirizar o Core
+- Over-engineering em suporte
+- Uniformizar estratégias de implementação
