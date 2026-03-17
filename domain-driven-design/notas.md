@@ -1,3 +1,9 @@
+Estou fazendo um curso de DDD para fazer o nosso negócio.
+
+Essas são as anotações que fiz até o momento:
+
+Preciso que você analise os tópicos abordados até o momento e me diga quais coisas são interessantes de aplicarmos nesse processo:
+
 ## O preço de não entender o negócio
 
 - Case: Healthcare.gov (Projeto desenvolvido pelo governo dos EUA para fazer matrícula dos cidadãos americanos no sistema de saúde)
@@ -527,3 +533,54 @@ _Generic_
 - Terceirizar o Core
 - Over-engineering em suporte
 - Uniformizar estratégias de implementação
+
+## Checklist de revisão
+
+- Valor comprovado:
+  - Gera diferencial em métricas (conversão, retenção, NPS)?
+- Vantagem Competitiva:
+  - Se copiado, perderiamos mercado?
+- Ritmo de Mudança:
+  - Frequência de mudança alinhada a classificação?
+- Investimento Proporcional:
+  - Investimento alinhado ao retorno?
+
+---
+
+## Heurísticas de Cortes
+
+- Linguagem
+- Ritmo de Mudança
+- Regras Interdependentes
+- Ator Decisor
+- Usuário e Objetivo
+- Qualidade de Serviço
+- Fonte da Verdade
+
+_Sinais de mau corte_
+
+- Efeito dominó
+- Guerra de Nomenclatura
+- Orquestração Complexa
+- Conflito de Ownwership
+- Sincronização Excessiva
+
+---
+
+## Como contextos se conversam
+
+Principios de Comunicação
+
+- Independência: Falhas isoladas.
+- Tradução: Adaptação de vocabulários
+- Acordo: Contratos claros
+
+Mecanismos de Comunicação
+
+- Linguagem Publicada
+- Camada Anti-Corrupção
+- Eventos
+
+Controle das Mudanças
+
+- Lider x Seguidor
