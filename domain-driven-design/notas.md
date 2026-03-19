@@ -584,3 +584,80 @@ Mecanismos de Comunicação
 Controle das Mudanças
 
 - Lider x Seguidor
+
+---
+
+## Por que usar padrões táticos?
+
+_Padrões Táticos_
+Organizando o código com a linguagem do domínio
+
+---
+
+## Entidades e Objetos de Valor
+
+_Entidades_
+Conceitos com identidade e ciclo de vida:
+
+- Identidade estável (ID natural/técnico);
+- Regras de ciclo de vida encapsuladas;
+- Igualdade por identidade
+
+_Objetos de Valor_
+
+- Imutabilidade
+  - Não muda; substitui-se por outro valor.
+- Igualdade por valor
+  - Dois objetos com mesmos valores são iguais.
+- Substituível
+  - Pode trocar por outro equivalente.
+
+Exemplos: Preço, CPF, Endereço, Período
+
+---
+
+## Implementando Agregados
+
+_Agregados_
+Cluster de Objetos que mantêm consistência juntos:
+
+- Uma raiz como único ponto de acesso
+- Fronteira Transacional clara
+- Tamanho pequeno e focado
+
+---
+
+## Entendendo o Serviço de Domínio
+
+_Serviços de Domínio_
+
+Quando usar:
+
+- Lógica que envolve múltiplos objetos e não tem "causa natural"
+
+Caracteristicas:
+
+- Sem estado, contrato claro, vocabulário do contexto
+
+Exemplos: Cálculo de frete, política de preços, recomendações
+
+---
+
+## O padrão repositório
+
+_Repositórios_
+Abstração de persistência orientada a agregado:
+
+- Interface no domínio
+- Implementação na infraestrutura
+- Métodos com intenção de negócio
+
+---
+
+## O padrão tático de eventos de domínio
+
+_Eventos de Domínio_
+
+Fato ocorrido: Representam mudanças importantes no domínio
+Publicação: Emitidos pelo agregado após mudança
+Reação: Handlers independentes processam o evento
